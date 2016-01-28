@@ -23,7 +23,13 @@
 
     <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
 
-    <!-- TODO: ADD PERMISSIONS HERE -->
+    <!-- Permissions added -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+
+
+
 
     <application
         android:allowBackup="true"
@@ -46,6 +52,8 @@
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/select_device"
             android:theme="@android:style/Theme.Holo.Dialog"/>
+
+
 
     </application>
 
